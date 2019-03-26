@@ -11,15 +11,15 @@
         var text;
         if(p == "n1"){
             for( var i=0; i<nilai1.length; i++){
-                text += "<option>" + nilai1[i] +"<option>";
+                text += "<option>" + nilai1[i] +"</option>";
             }
         } else if(p == "n2"){
             for(var i=0; i<nilai2.length; i++){
-                text += "<option>" + nilai2[i] +"<option>";
+                text += "<option>" + nilai2[i] +"</option>";
             }
         } else {
         for(var i=0; i<nilai3.length; i++){
-            text += "<option>" + nilai3[i] +"<option>";
+            text += "<option>" + nilai3[i] +"</option>";
             }
         }
         document.getElementById("cb2").innerHTML=text;
