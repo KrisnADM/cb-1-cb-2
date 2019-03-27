@@ -32,7 +32,6 @@
         <option value="n2">nilai2</option>
         <option value="n3">nilai3</option>
     </select>
-    <br>    
     <select id="cb2">       
 
     </select>
